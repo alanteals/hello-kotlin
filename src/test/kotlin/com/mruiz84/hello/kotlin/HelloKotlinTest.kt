@@ -16,5 +16,4 @@ class HelloKotlinTest {
 
         return words.joinToString(separator = " ")
     }
-
 }
