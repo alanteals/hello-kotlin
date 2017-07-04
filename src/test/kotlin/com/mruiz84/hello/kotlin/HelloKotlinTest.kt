@@ -1,11 +1,13 @@
 package com.mruiz84.hello.kotlin
 
-import org.junit.Test
+import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
+
 
 class HelloKotlinTest {
 
-    @Test fun f() {
+    @Test
+    fun `hello world test`() {
         assertEquals("Hello, world!", getGreeting())
     }
 
